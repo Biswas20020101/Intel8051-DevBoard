@@ -2,7 +2,7 @@
 |-----------------------------------------------------|
 |Understanding Computer Language Levels and Execution.|
 |-----------------------------------------------------|
-|-----------------------------------------------------|
+|-----------------------------------------------------| 
 
 Computer language:
 A computer language is a way to communicate with computers. 
