@@ -202,6 +202,20 @@ csharp
 Copy
 Edit
 Value of x is: 10
+✅ Ruby
+ruby
+Copy
+Edit
+# This is a comment
+x = 10
+puts "Value of x is: #{x}"
+🟢 Output:
+csharp
+Copy
+Edit
+Value of x is: 10
+
+
 ✅ 5. PHP
 php
 Copy
