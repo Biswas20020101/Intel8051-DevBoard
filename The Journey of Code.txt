@@ -2,7 +2,7 @@
 |-----------------------------------------------------|
 |Understanding Computer Language Levels and Execution.|
 |-----------------------------------------------------|
-|-----------------------------------------------------|
+|-----------------------------------------------------| 
 
 Computer language:
 A computer language is a way to communicate with computers. 
@@ -132,6 +132,259 @@ ADD AX, 3
 
 10101010 00000101
 00000101 00000011
+
+Here’s a complete list of basic programs for the languages including how to write code, comments, a simple variable/print examples with the expected output.
+
+✅ 1. Python
+python
+Copy
+Edit
+# This is a comment
+x = 10
+print("Value of x is:", x)
+Output:
+
+csharp
+Copy
+Edit
+Value of x is: 10
+✅ 2. Java
+java
+Copy
+Edit
+// This is a comment
+public class Main {
+    public static void main(String[] args) {
+        int x = 10;
+        System.out.println("Value of x is: " + x);
+    }
+}
+Output:
+
+csharp
+Copy
+Edit
+Value of x is: 10
+✅ 3. C#
+csharp
+Copy
+Edit
+// This is a comment
+using System;
+
+class Program {
+    static void Main() {
+        int x = 10;
+        Console.WriteLine("Value of x is: " + x);
+    }
+}
+Output:
+
+csharp
+Copy
+Edit
+Value of x is: 10
+✅ 4. C
+c
+Copy
+Edit
+// This is a comment
+#include <stdio.h>
+
+int main() {
+    int x = 10;
+    printf("Value of x is: %d\n", x);
+    return 0;
+}
+Output:
+
+csharp
+Copy
+Edit
+Value of x is: 10
+✅ Ruby
+ruby
+Copy
+Edit
+# This is a comment
+x = 10
+puts "Value of x is: #{x}"
+🟢 Output:
+csharp
+Copy
+Edit
+Value of x is: 10
+
+
+✅ 5. PHP
+php
+Copy
+Edit
+<?php
+// This is a comment
+$x = 10;
+echo "Value of x is: " . $x;
+?>
+Output:
+
+csharp
+Copy
+Edit
+Value of x is: 10
+✅ 6. C++
+cpp
+Copy
+Edit
+// This is a comment
+#include <iostream>
+using namespace std;
+
+int main() {
+    int x = 10;
+    cout << "Value of x is: " << x << endl;
+    return 0;
+}
+Output:
+
+csharp
+Copy
+Edit
+Value of x is: 10
+✅ 7. Perl
+perl
+Copy
+Edit
+# This is a comment
+my $x = 10;
+print "Value of x is: $x\n";
+Output:
+
+csharp
+Copy
+Edit
+Value of x is: 10
+✅ 8. JavaScript
+javascript
+Copy
+Edit
+// This is a comment
+let x = 10;
+console.log("Value of x is: " + x);
+Output:
+
+csharp
+Copy
+Edit
+Value of x is: 10
+✅ 9. Go (Golang)
+go
+Copy
+Edit
+// This is a comment
+package main
+import "fmt"
+
+func main() {
+    x := 10
+    fmt.Println("Value of x is:", x)
+}
+Output:
+
+csharp
+Copy
+Edit
+Value of x is: 10
+✅ 10. HTML
+html
+Copy
+Edit
+<!-- This is a comment -->
+<!DOCTYPE html>
+<html>
+<body>
+    <p>Value of x is: 10</p>
+</body>
+</html>
+Output (Web Page):
+
+Value of x is: 10
+
+✅ 11. SQL
+sql
+Copy
+Edit
+-- This is a comment
+SELECT 'Value of x is: 10' AS result;
+Output:
+
+markdown
+Copy
+Edit
+result
+-------------------
+Value of x is: 10
+✅ 12. Rust
+rust
+Copy
+Edit
+// This is a comment
+fn main() {
+    let x = 10;
+    println!("Value of x is: {}", x);
+}
+Output:
+
+csharp
+Copy
+Edit
+Value of x is: 10
+✅ 13. Kotlin
+kotlin
+Copy
+Edit
+// This is a comment
+fun main() {
+    val x = 10
+    println("Value of x is: $x")
+}
+Output:
+
+csharp
+Copy
+Edit
+Value of x is: 10
+✅ 14. Assembly (x86 NASM)
+asm
+Copy
+Edit
+; This is a comment
+section .data
+    msg db 'Value of x is: 10', 0
+
+section .text
+    global _start
+
+_start:
+    ; Normally code to print goes here (OS-dependent)
+    ; We'll simulate the message here.
+Output:
+
+csharp
+Copy
+Edit
+(Value of x is: 10) - shown if implemented with syscall
+⚠️ Assembly requires system-specific setup and doesn't produce direct output without OS-level code.
+
+✅ 15. Machine Code
+Machine code is binary, so it’s not typically written by humans. But here's an illustrative idea:
+
+scss
+Copy
+Edit
+// Machine code (conceptual)
+10111000 00001010  ; Move 10 into register (like MOV AX, 10)
+Output:
+Not human-readable — executed by CPU directly.
 
 
 
